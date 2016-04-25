@@ -128,9 +128,9 @@ def compare_teams(results_base, home, away):
             away_team_points += home_side_result_coefficient * 1.0 * time_coefficient
 
         if away_side_results[i][0] > away_side_results[i][1]:
-            home_team_points += away_side_result_coefficient * 3.0 * time_coefficient
-        elif away_side_results[i][0] < away_side_results[i][1]:
             away_team_points += away_side_result_coefficient * 3.0 * time_coefficient
+        elif away_side_results[i][0] < away_side_results[i][1]:
+            home_team_points += away_side_result_coefficient * 3.0 * time_coefficient
         else:  # away_side_results[i][0] == away_side_results[i][1]
             home_team_points += away_side_result_coefficient * 1.0 * time_coefficient
             away_team_points += away_side_result_coefficient * 1.0 * time_coefficient
@@ -214,6 +214,11 @@ def main():
 
     print compare_teams(results_base, team1, team2)
     print compare_teams(results_base, team2, team1)
+    for result in results_base[team1][team2]:
+        print result
+    print '---------------'
+    for result in results_base[team2][team1]:
+            print result
 
 
 def fuzzy_example():
