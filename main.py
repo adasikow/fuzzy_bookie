@@ -1,4 +1,5 @@
 from collections import OrderedDict
+import fuzzy.storage.fcl.Reader
 
 
 HOME = 'h'
@@ -98,5 +99,24 @@ def main():
         print "{0} {1} : {2} {3}".format(team2, result[0], result[1], team1)
 
 
+def fuzzy_example():
+    system = fuzzy.storage.fcl.Reader.Reader().load_from_file("example.fcl")
+
+    my_input = {
+        "Our_Health": 100.0,
+        "Enemy_Health": 50.0
+    }
+
+    my_output = {
+        "Aggressiveness": 0.0
+    }
+
+    system.calculate(my_input, my_output)
+
+    print my_output["Aggressiveness"]
+
+
 if __name__ == "__main__":
-    main()
+    #main()
+    fuzzy_example()
+
