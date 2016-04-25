@@ -1,0 +1,425 @@
+Cardiff	Chelsea	1 : 2	
+Fulham	CrystalPalace	2 : 2	
+Hull	Everton	0 : 2	
+Liverpool	Newcastle 	2 : 1	
+ManchesterCity	WestHam	2 : 0	
+Norwich	Arsenal	0 : 2	
+Southampton	ManchesterUtd	1 : 1	
+Sunderland	Swansea	1 : 3	
+Tottenham	AstonVilla	3 : 0	
+WestBrom	Stoke	1 : 2	
+
+ManchesterCity	AstonVilla	4 : 0	
+
+Sunderland	WestBrom	2 : 0	
+
+ManchesterUtd	Hull	3 : 1	
+
+CrystalPalace	Liverpool	3 : 3	
+Chelsea	Norwich	0 : 0	
+Arsenal	WestBrom	1 : 0	
+Everton	ManchesterCity	2 : 3	
+AstonVilla	Hull	3 : 1	
+ManchesterUtd	Sunderland	0 : 1	
+Newcastle	Cardiff	3 : 0	
+Stoke	Fulham	4 : 1	
+Swansea	Southampton	0 : 1	
+WestHam	Tottenham 	2 : 0	
+
+Arsenal	Newcastle	3 : 0	
+CrystalPalace	ManchesterCity	0 : 2	
+Liverpool	Chelsea	0 : 2	
+Sunderland	Cardiff 	4 : 0	
+ManchesterUtd	Norwich	4 : 0	
+Fulham	Hull	2 : 2	
+Stoke 	Tottenham	0 : 1	
+Swansea	AstonVilla	4 : 1	
+WestBrom	WestHam	1 : 0	
+Southampton	Everton	2 : 0	
+
+ManchesterCity	WestBrom	3 : 1	
+Everton	ManchesterUtd	2 : 0	
+Hull	Arsenal	0 : 3	
+Norwich	Liverpool	2 : 3	
+Chelsea	Sunderland	1 : 2	
+AstonVilla	Southampton	0 : 0	
+Cardiff	Stoke	1 : 1	
+Newcastle	Swansea	1 : 2	
+WestHam	CrystalPalace	0 : 1	
+Tottenham	Fulham	3 : 1	
+
+Everton	CrystalPalace	2 : 3	
+ManchesterCity	Sunderland	2 : 2	
+
+Arsenal	WestHam	3 : 1	
+Swansea 	Chelsea	0 : 1	
+Liverpool 	ManchesterCity	3 : 2	
+CrystalPalace	AstonVilla	1 : 0	
+Fulham	Norwich	1 : 0	
+Southampton	Cardiff	0 : 1	
+Stoke	Newcastle	1 : 0	
+Sunderland	Everton	0 : 1	
+WestBrom	Tottenham	3 : 3	
+
+Tottenham	Sunderland	5 : 1	
+WestHam	Liverpool	1 : 2	
+Everton	Arsenal	3 : 0	
+Chelsea	Stoke	3 : 0	
+AstonVilla	Fulham	1 : 2	
+Cardiff	CrystalPalace	0 : 3	
+Hull	Swansea	1 : 0	
+Newcastle	ManchesterUtd	0 : 4	
+Norwich	WestBrom	0 : 1	
+ManchesterCity	Southampton	4 : 1	
+
+Sunderland	WestHam	1 : 2	
+Liverpool	Tottenham	4 : 0	
+Fulham	Everton	1 : 3	
+Arsenal	ManchesterCity	1 : 1	
+CrystalPalace	Chelsea	1 : 0	
+Southampton	Newcastle	4 : 0	
+Stoke	Hull	1 : 0	
+Swansea	Norwich	3 : 0	
+WestBrom	Cardiff	3 : 3	
+ManchesterUtd	AstonVilla	4 : 1	
+
+Liverpool	Sunderland	2 : 1	
+WestHam	Hull 	2 : 1	
+Arsenal	Swansea	2 : 2	
+
+ManchesterUtd	ManchesterCity	0 : 3	
+
+Newcastle	Everton	0 : 3	
+
+AstonVilla	Stoke	1 : 4	
+Tottenham	Southampton	3 : 2	
+WestHam	ManchesterUtd	0 : 2	
+Cardiff	Liverpool	3 : 6	
+Everton	Swansea	3 : 2	
+Hull	WestBrom	2 : 0	
+ManchesterCity	Fulham 	5 : 0	
+Newcastle	CrystalPalace	1 : 0	
+Norwich	Sunderland 	2 : 0	
+Chelsea	Arsenal 	6 : 0	
+
+Tottenham	Arsenal	0 : 1	
+ManchesterUtd 	Liverpool	0 : 3	
+AstonVilla	Chelsea 	1 : 0	
+Everton	Cardiff	2 : 1	
+Fulham	Newcastle	1 : 0	
+Southampton	Norwich	4 : 2	
+Stoke	WestHam	3 : 1	
+Sunderland	CrystalPalace	0 : 0	
+Swansea	WestBrom	1 : 2	
+Hull	ManchesterCity 	0 : 2	
+
+Chelsea	Tottenham 	4 : 0	
+Cardiff	Fulham	3 : 1	
+CrystalPalace	Southampton	0 : 1	
+Norwich	Stoke 	1 : 1	
+WestBrom	ManchesterUtd	0 : 3	
+
+AstonVilla	Norwich	4 : 1	
+Swansea 	CrystalPalace	1 : 1	
+Tottenham	Cardiff	1 : 0	
+Southampton	Liverpool	0 : 3	
+Everton	WestHam	1 : 0	
+Fulham	Chelsea	1 : 3	
+Hull	Newcastle	1 : 4	
+Stoke	Arsenal	1 : 0	
+
+Norwich	Tottenham	1 : 0	
+Liverpool	Swansea	4 : 3	
+Newcastle	AstonVilla	1 : 0	
+CrystalPalace	ManchesterUtd	0 : 2	
+Arsenal	Sunderland	4 : 1	
+Cardiff	Hull	0 : 4	
+ManchesterCity	Stoke	1 : 0	
+WestBrom	Fulham	1 : 1	
+WestHam	Southampton	3 : 1	
+Chelsea	Everton	1 : 0	
+
+Fulham	Liverpool	2 : 3	
+Stoke	Swansea	1 : 1	
+Arsenal	ManchesterUtd	0 : 0	
+Newcastle	Tottenham	0 : 4	
+WestBrom	Chelsea	1 : 1	
+Cardiff	AstonVilla	0 : 0	
+Hull	Southampton	0 : 1	
+WestHam	Norwich	2 : 0	
+
+ManchesterUtd	Fulham	2 : 2	
+Tottenham	Everton	1 : 0	
+Swansea	Cardiff	3 : 0	
+AstonVilla	WestHam	0 : 2	
+Chelsea	Newcastle	3 : 0	
+CrystalPalace	WestBrom	3 : 1	
+Norwich	ManchesterCity	0 : 0	
+Southampton	Stoke	2 : 2	
+Sunderland 	Hull	0 : 2	
+Liverpool	Arsenal	5 : 1	
+
+ManchesterCity	Chelsea	0 : 1	
+Arsenal	CrystalPalace	2 : 0	
+WestBrom	Liverpool	1 : 1	
+Cardiff	Norwich	2 : 1	
+Everton	AstonVilla	2 : 1	
+Fulham	Southampton	0 : 3	
+Hull	Tottenham	1 : 1	
+Stoke	ManchesterUtd	2 : 1	
+Newcastle	Sunderland	0 : 3	
+WestHam 	Swansea	2 : 0	
+
+AstonVilla	WestBrom	4 : 3	
+Chelsea	WestHam	0 : 0	
+Sunderland	Stoke 	1 : 0	
+Tottenham 	ManchesterCity	1 : 5	
+CrystalPalace	Hull 	1 : 0	
+Liverpool	Everton	4 : 0	
+ManchesterUtd	Cardiff	2 : 0	
+Norwich 	Newcastle 	0 : 0	
+Southampton	Arsenal 	2 : 2	
+Swansea	Fulham	2 : 0	
+
+WestBrom	Everton	1 : 1	
+Chelsea	ManchesterUtd 	3 : 1	
+Swansea	Tottenham	1 : 3	
+Liverpool	AstonVilla	2 : 2	
+Arsenal	Fulham	2 : 0	
+CrystalPalace	Stoke	1 : 0	
+ManchesterCity	Cardiff	4 : 2	
+Norwich	Hull 	1 : 0	
+WestHam	Newcastle	1 : 3	
+Sunderland	Southampton	2 : 2	
+
+AstonVilla	Arsenal	1 : 2	
+Stoke	Liverpool	3 : 5	
+Newcastle	ManchesterCity	0 : 2	
+ManchesterUtd	Swansea	2 : 0	
+Cardiff	WestHam 	0 : 2	
+Everton	Norwich	2 : 0	
+Fulham	Sunderland	1 : 4	
+Southampton	WestBrom	1 : 0	
+Tottenham	CrystalPalace	2 : 0	
+Hull	Chelsea	0 : 2	
+
+ManchesterUtd	Tottenham	1 : 2	
+Arsenal	Cardiff	2 : 0	
+CrystalPalace	Norwich 	1 : 1	
+Fulham	WestHam 	2 : 1	
+Liverpool	Hull	2 : 0	
+Southampton	Chelsea	0 : 3	
+Stoke	Everton	1 : 1	
+Sunderland	AstonVilla	0 : 1	
+WestBrom	Newcastle 	1 : 0	
+Swansea	ManchesterCity	2 : 3	
+
+Chelsea	Liverpool	2 : 1	
+Tottenham	Stoke	3 : 0	
+Everton	Southampton	2 : 1	
+Newcastle	Arsenal	0 : 1	
+Cardiff	Sunderland	2 : 2	
+AstonVilla	Swansea	1 : 1	
+Hull	Fulham	6 : 0	
+ManchesterCity	CrystalPalace	1 : 0	
+Norwich	ManchesterUtd	0 : 1	
+WestHam	WestBrom	3 : 3	
+
+ManchesterCity	Liverpool	2 : 1	
+AstonVilla	CrystalPalace	0 : 1	
+Cardiff	Southampton	0 : 3	
+Chelsea	Swansea	1 : 0	
+Everton 	Sunderland	0 : 1	
+Newcastle	Stoke 	5 : 1	
+Norwich	Fulham	1 : 2	
+Tottenham	WestBrom	1 : 1	
+WestHam	Arsenal	1 : 3	
+Hull	ManchesterUtd 	2 : 3	
+
+Arsenal	Chelsea	0 : 0	
+Swansea	Everton	1 : 2	
+Southampton	Tottenham	2 : 3	
+CrystalPalace	Newcastle	0 : 3	
+Fulham	ManchesterCity	2 : 4	
+ManchesterUtd	WestHam	3 : 1	
+Stoke	AstonVilla	2 : 1	
+Sunderland 	Norwich	0 : 0	
+WestBrom	Hull	1 : 1	
+Liverpool	Cardiff	3 : 1	
+
+Tottenham 	Liverpool	0 : 5	
+AstonVilla	ManchesterUtd	0 : 3	
+Norwich	Swansea	1 : 1	
+Hull	Stoke	0 : 0	
+Cardiff	WestBrom	1 : 0	
+Chelsea	CrystalPalace	2 : 1	
+Everton	Fulham	4 : 1	
+Newcastle	Southampton	1 : 1	
+WestHam	Sunderland	0 : 0	
+ManchesterCity	Arsenal	6 : 3	
+
+Swansea	Hull	1 : 1	
+Arsenal	Everton	1 : 1	
+Fulham	AstonVilla	2 : 0	
+Sunderland	Tottenham	1 : 2	
+CrystalPalace	Cardiff	2 : 0	
+Liverpool	WestHam 	4 : 1	
+Southampton	ManchesterCity	1 : 1	
+Stoke	Chelsea	3 : 2	
+WestBrom	Norwich	0 : 2	
+ManchesterUtd	Newcastle	0 : 1	
+
+Fulham	Tottenham	1 : 2	
+WestBrom	ManchesterCity	2 : 3	
+Arsenal	Hull	2 : 0	
+Liverpool	Norwich	5 : 1	
+ManchesterUtd	Everton	0 : 1	
+Southampton	AstonVilla	2 : 3	
+Stoke	Cardiff	0 : 0	
+Sunderland	Chelsea	3 : 4	
+Swansea	Newcastle	3 : 0	
+CrystalPalace	WestHam	1 : 0	
+
+Chelsea	Southampton	3 : 1	
+ManchesterCity	Swansea	3 : 0	
+Hull	Liverpool	3 : 1	
+Tottenham	ManchesterUtd	2 : 2	
+Newcastle	WestBrom	2 : 1	
+AstonVilla	Sunderland	0 : 0	
+Cardiff	Arsenal	0 : 3	
+Everton	Stoke	4 : 0	
+Norwich	CrystalPalace	1 : 0	
+WestHam	Fulham	3 : 0	
+
+WestBrom	AstonVilla	2 : 2	
+Cardiff	ManchesterUtd	2 : 2	
+ManchesterCity	Tottenham	6 : 0	
+WestHam	Chelsea	0 : 3	
+Arsenal	Southampton	2 : 0	
+Fulham	Swansea	1 : 2	
+Hull	CrystalPalace 	0 : 1	
+Newcastle	Norwich	2 : 1	
+Stoke	Sunderland 	2 : 0	
+Everton	Liverpool	3 : 3	
+
+ManchesterUtd	Arsenal	1 : 0	
+Swansea	Stoke	3 : 3	
+Sunderland	ManchesterCity	1 : 0	
+Tottenham	Newcastle	0 : 1	
+Norwich	WestHam	3 : 1	
+AstonVilla	Cardiff	2 : 0	
+Chelsea	WestBrom	2 : 2	
+CrystalPalace	Everton	0 : 0	
+Liverpool	Fulham	4 : 0	
+Southampton	Hull	4 : 1	
+
+Cardiff	Swansea 	1 : 0	
+Everton	Tottenham	0 : 0	
+Arsenal	Liverpool	2 : 0	
+Fulham	ManchesterUtd	1 : 3	
+Hull	Sunderland 	1 : 0	
+ManchesterCity	Norwich	7 : 0	
+Stoke	Southampton	1 : 1	
+WestBrom	CrystalPalace	2 : 0	
+WestHam	AstonVilla	0 : 0	
+Newcastle	Chelsea	2 : 0	
+
+Chelsea	ManchesterCity	2 : 1	
+Swansea	WestHam	0 : 0	
+Tottenham	Hull	1 : 0	
+Sunderland	Newcastle	2 : 1	
+Southampton	Fulham	2 : 0	
+AstonVilla	Everton	0 : 2	
+Liverpool	WestBrom	4 : 1	
+ManchesterUtd	Stoke	3 : 2	
+Norwich	Cardiff	0 : 0	
+CrystalPalace	Arsenal 	0 : 2	
+
+CrystalPalace	Fulham	1 : 4	
+AstonVilla	Tottenham	0 : 2	
+WestHam	ManchesterCity	1 : 3	
+Arsenal	Norwich	4 : 1	
+Chelsea	Cardiff	4 : 1	
+Everton	Hull	2 : 1	
+ManchesterUtd	Southampton	1 : 1	
+Stoke	WestBrom	0 : 0	
+Swansea	Sunderland	4 : 0	
+Newcastle 	Liverpool	2 : 2	
+
+Tottenham	WestHam	0 : 3	
+WestBrom	Arsenal	1 : 1	
+Norwich	Chelsea	1 : 3	
+Southampton	Swansea	2 : 0	
+Sunderland	ManchesterUtd	1 : 2	
+Cardiff	Newcastle	1 : 2	
+Fulham	Stoke	1 : 0	
+Hull	AstonVilla	0 : 0	
+Liverpool	CrystalPalace	3 : 1	
+ManchesterCity	Everton	3 : 1	
+
+Everton	Newcastle	3 : 2	
+Sunderland	Liverpool	1 : 3	
+Stoke	Norwich	0 : 1	
+Swansea	Arsenal	1 : 2	
+AstonVilla	ManchesterCity	3 : 2	
+Fulham	Cardiff	1 : 2	
+Hull	WestHam	1 : 0	
+ManchesterUtd	WestBrom	1 : 2	
+Southampton	CrystalPalace	2 : 0	
+Tottenham	Chelsea 	1 : 1	
+
+Cardiff	Tottenham	0 : 1	
+ManchesterCity	ManchesterUtd	4 : 1	
+Arsenal	Stoke	3 : 1	
+CrystalPalace	Swansea	0 : 2	
+Chelsea	Fulham	2 : 0	
+Liverpool	Southampton	0 : 1	
+Newcastle	Hull	2 : 3	
+WestBrom	Sunderland	3 : 0	
+WestHam 	Everton	2 : 3	
+Norwich	AstonVilla	0 : 1	
+
+Swansea	Liverpool	2 : 2	
+Southampton	WestHam	0 : 0	
+Everton	Chelsea	1 : 0	
+AstonVilla	Newcastle	1 : 2	
+Fulham	WestBrom	1 : 1	
+Hull	Cardiff	1 : 1	
+Stoke	ManchesterCity	0 : 0	
+Sunderland	Arsenal	1 : 3	
+Tottenham	Norwich	2 : 0	
+ManchesterUtd	CrystalPalace 	2 : 0	
+
+Arsenal	Tottenham	1 : 0	
+Liverpool	ManchesterUtd	1 : 0	
+WestBrom	Swansea	0 : 2	
+CrystalPalace	Sunderland 	3 : 1	
+Cardiff	Everton	0 : 0	
+Newcastle	Fulham	1 : 0	
+Norwich	Southampton	1 : 0	
+WestHam	Stoke	0 : 1	
+ManchesterCity	Hull	2 : 0	
+
+ManchesterUtd	Chelsea	0 : 0	
+Cardiff	ManchesterCity	3 : 2	
+Tottenham	Swansea	1 : 0	
+AstonVilla	Liverpool	0 : 1	
+Everton	WestBrom	0 : 0	
+Hull 	Norwich	1 : 0	
+Newcastle	WestHam	0 : 0	
+Southampton	Sunderland	1 : 1	
+Stoke	CrystalPalace	2 : 1	
+Fulham	Arsenal	1 : 3	
+
+Chelsea	AstonVilla	2 : 1	
+
+ManchesterCity	Newcastle 	4 : 0	
+Chelsea	Hull	2 : 0	
+CrystalPalace	Tottenham	0 : 1	
+Swansea	ManchesterUtd	1 : 4	
+Arsenal 	AstonVilla	1 : 3	
+Norwich	Everton	2 : 2	
+Sunderland	Fulham	0 : 1	
+WestBrom	Southampton	0 : 1	
+WestHam	Cardiff	2 : 0	
+Liverpool	Stoke	1 : 0	

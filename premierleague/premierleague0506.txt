@@ -1,0 +1,432 @@
+Arsenal	Wigan 	4 : 2	
+AstonVilla	Sunderland	2 : 1	
+Blackburn 	ManchesterCity	2 : 0	
+Bolton	Birmingham	1 : 0	
+Everton	WestBrom	2 : 2	
+Fulham	Middlesbrough	1 : 0	
+ManchesterUtd	Charlton	4 : 0	
+Newcastle 	Chelsea	1 : 0	
+Portsmouth	Liverpool	1 : 3	
+WestHam	Tottenham	2 : 1	
+
+ManchesterCity	Arsenal	1 : 3	
+
+Sunderland	Fulham	2 : 1	
+
+Bolton	Middlesbrough	1 : 1	
+
+Blackburn	Chelsea	1 : 0	
+ManchesterUtd	Middlesbrough	0 : 0	
+
+WestBrom	WestHam	0 : 1	
+Sunderland	Arsenal	0 : 3	
+Tottenham	Bolton	1 : 0	
+Charlton	Blackburn	0 : 2	
+Birmingham	Newcastle	0 : 0	
+Liverpool	AstonVilla	3 : 1	
+ManchesterCity	Fulham	1 : 2	
+Middlesbrough	Everton	0 : 1	
+Wigan 	Portsmouth	1 : 2	
+Chelsea	ManchesterUtd	3 : 0	
+
+WestHam 	Liverpool 	1 : 2	
+AstonVilla	ManchesterCity	0 : 1	
+Fulham	Wigan	1 : 0	
+Bolton	Charlton	4 : 1	
+Everton	Birmingham	0 : 0	
+Newcastle	WestBrom	3 : 0	
+Portsmouth	Sunderland	2 : 1	
+Arsenal	Tottenham 	1 : 1	
+
+Birmingham	Blackburn	2 : 1	
+Wigan	AstonVilla	3 : 2	
+WestBrom	Bolton	0 : 0	
+Charlton	Portsmouth	2 : 1	
+Chelsea	Everton 	3 : 0	
+Middlesbrough	WestHam	2 : 0	
+Sunderland	Newcastle	1 : 4	
+Tottenham	ManchesterUtd	1 : 2	
+
+Blackburn	Liverpool	0 : 1	
+AstonVilla	Birmingham	3 : 1	
+Arsenal	WestBrom	3 : 1	
+Everton	Tottenham	0 : 1	
+Fulham	Charlton	2 : 1	
+Newcastle	Wigan	3 : 1	
+Portsmouth	Middlesbrough	1 : 0	
+WestHam	ManchesterCity	1 : 0	
+Bolton 	Chelsea	0 : 2	
+ManchesterUtd	Sunderland	0 : 0	
+
+Portsmouth	Arsenal	1 : 1	
+
+ManchesterUtd	Arsenal	2 : 0	
+Middlesbrough	Newcastle	1 : 2	
+Liverpool	Bolton	1 : 0	
+AstonVilla	WestBrom	0 : 0	
+Chelsea 	WestHam	4 : 1	
+Wigan	Birmingham	1 : 1	
+Charlton	Everton	0 : 0	
+Portsmouth	Blackburn	2 : 2	
+Tottenham	ManchesterCity	2 : 1	
+
+Birmingham	Bolton	1 : 0	
+
+Blackburn	Wigan	1 : 1	
+WestHam	Charlton	0 : 0	
+ManchesterCity	Middlesbrough	0 : 1	
+WestBrom	Liverpool	0 : 2	
+Arsenal	AstonVilla	5 : 0	
+Bolton	ManchesterUtd	1 : 2	
+Everton	Sunderland	2 : 2	
+Fulham 	Portsmouth	1 : 3	
+Newcastle	Tottenham 	3 : 1	
+Birmingham	Chelsea	0 : 0	
+
+ManchesterUtd	WestHam	1 : 0	
+
+Tottenham	WestBrom	2 : 1	
+ManchesterUtd	Birmingham	3 : 0	
+Charlton	Newcastle	3 : 1	
+Middlesbrough	Bolton	4 : 3	
+AstonVilla	Fulham	0 : 0	
+Chelsea	ManchesterCity 	2 : 0	
+Sunderland	Blackburn	0 : 1	
+Wigan	WestHam	1 : 2	
+Liverpool 	Everton 	3 : 1	
+
+Fulham	Chelsea 	1 : 0	
+Newcastle 	Liverpool	1 : 3	
+Birmingham	Tottenham	0 : 2	
+Arsenal	Charlton	3 : 0	
+Blackburn 	Middlesbrough	3 : 2	
+Bolton	Sunderland	2 : 0	
+ManchesterCity	Wigan	0 : 1	
+WestBrom	ManchesterUtd	1 : 2	
+WestHam	Portsmouth	2 : 4	
+Everton	AstonVilla	4 : 1	
+
+Liverpool	Fulham	5 : 1	
+
+Arsenal	Liverpool 	2 : 1	
+Charlton	Middlesbrough	2 : 1	
+ManchesterUtd	Newcastle	2 : 0	
+Blackburn	AstonVilla	2 : 0	
+Bolton	WestHam	4 : 1	
+Everton	Fulham	3 : 1	
+Portsmouth	ManchesterCity	2 : 1	
+Sunderland	Wigan	0 : 1	
+Chelsea	Tottenham	2 : 1	
+Birmingham	WestBrom	1 : 1	
+
+Wigan	ManchesterUtd	1 : 2	
+Tottenham	Blackburn	3 : 2	
+ManchesterCity	Sunderland 	2 : 1	
+Liverpool	Charlton	0 : 0	
+AstonVilla	Portsmouth	1 : 0	
+Fulham	Arsenal	0 : 4	
+Middlesbrough	Birmingham	1 : 0	
+Newcastle	Bolton	3 : 1	
+WestHam	Everton	2 : 2	
+WestBrom	Chelsea 	1 : 2	
+
+WestBrom 	Middlesbrough	0 : 2	
+Bolton	Fulham	2 : 1	
+Liverpool	ManchesterCity 	1 : 0	
+Newcastle	Everton	2 : 0	
+Birmingham	Sunderland	1 : 0	
+Blackburn	Arsenal	1 : 0	
+Charlton	AstonVilla	0 : 0	
+Chelsea	Portsmouth	2 : 0	
+
+Newcastle	Charlton	0 : 0	
+
+Tottenham	Wigan	2 : 2	
+
+Blackburn	Sunderland	2 : 0	
+
+Liverpool	Arsenal	1 : 0	
+
+WestHam	Birmingham	3 : 0	
+ManchesterCity	Charlton	3 : 2	
+Sunderland	Tottenham	1 : 1	
+Portsmouth	ManchesterUtd	1 : 3	
+Arsenal	Bolton	1 : 1	
+AstonVilla	Newcastle 	1 : 2	
+Everton 	Blackburn	1 : 0	
+Fulham	WestBrom	6 : 1	
+Middlesbrough	Chelsea	3 : 0	
+Wigan	Liverpool	0 : 1	
+
+Charlton	Liverpool	2 : 0	
+
+Chelsea	Liverpool 	2 : 0	
+Tottenham	Charlton	3 : 1	
+ManchesterUtd	Fulham	4 : 2	
+Birmingham 	Arsenal	0 : 2	
+Bolton	Wigan	1 : 1	
+Everton	ManchesterCity 	1 : 0	
+Middlesbrough	AstonVilla	0 : 4	
+Newcastle	Portsmouth	2 : 0	
+WestBrom	Blackburn	2 : 0	
+WestHam	Sunderland 	2 : 0	
+
+Arsenal	WestHam	2 : 3	
+Blackburn	ManchesterUtd 	4 : 3	
+Liverpool	Birmingham 	1 : 1	
+AstonVilla	Chelsea	1 : 1	
+ManchesterCity	Newcastle	3 : 0	
+Portsmouth	Bolton	1 : 1	
+Charlton	WestBrom	0 : 0	
+Fulham	Tottenham 	1 : 0	
+Sunderland	Middlesbrough	0 : 3	
+Wigan 	Everton 	1 : 1	
+
+WestHam	Fulham	2 : 1	
+ManchesterUtd	Liverpool	1 : 0	
+Chelsea 	Charlton	1 : 1	
+WestBrom	Sunderland	0 : 1	
+Birmingham	Portsmouth	5 : 0	
+Bolton	ManchesterCity	2 : 0	
+Middlesbrough	Wigan	2 : 3	
+Newcastle	Blackburn	0 : 1	
+Tottenham	AstonVilla 	0 : 0	
+Everton	Arsenal 	1 : 0	
+
+Sunderland	Chelsea 	1 : 2	
+Wigan	WestBrom 	0 : 1	
+Blackburn	Bolton 	0 : 0	
+Arsenal	Middlesbrough 	7 : 0	
+AstonVilla	WestHam	1 : 2	
+Charlton	Birmingham	2 : 0	
+Fulham	Newcastle	1 : 0	
+Liverpool	Tottenham 	1 : 0	
+Portsmouth	Everton	0 : 1	
+ManchesterCity	ManchesterUtd 	3 : 1	
+
+ManchesterCity	Tottenham	0 : 2	
+Arsenal	ManchesterUtd	0 : 0	
+Blackburn	Portsmouth	2 : 1	
+Birmingham	Wigan	2 : 0	
+Bolton	Liverpool	2 : 2	
+Everton	Charlton	3 : 1	
+Fulham	Sunderland 	2 : 1	
+Newcastle	Middlesbrough	2 : 2	
+WestHam	Chelsea	1 : 3	
+WestBrom	AstonVilla	1 : 2	
+
+Liverpool	WestBrom	1 : 0	
+ManchesterUtd	Bolton	4 : 1	
+Middlesbrough	ManchesterCity	0 : 0	
+Portsmouth	Fulham	1 : 0	
+Sunderland	Everton	0 : 1	
+Wigan	Blackburn	0 : 3	
+Charlton	WestHam	2 : 0	
+Chelsea	Birmingham	2 : 0	
+Tottenham	Newcastle	2 : 0	
+AstonVilla	Arsenal	0 : 0	
+
+Everton 	Liverpool	1 : 3	
+Arsenal	Portsmouth	4 : 0	
+Birmingham	ManchesterUtd	2 : 2	
+Fulham	AstonVilla	3 : 3	
+ManchesterCity	Chelsea	0 : 1	
+WestBrom	Tottenham	2 : 0	
+WestHam	Wigan	0 : 2	
+
+AstonVilla	Everton	4 : 0	
+Liverpool	Newcastle 	2 : 0	
+ManchesterUtd	WestBrom	3 : 0	
+Middlesbrough	Blackburn	0 : 2	
+Portsmouth 	WestHam	1 : 1	
+Sunderland	Bolton	0 : 0	
+Wigan	ManchesterCity	4 : 3	
+Chelsea	Fulham	3 : 2	
+Tottenham	Birmingham 	2 : 0	
+Charlton 	Arsenal	0 : 1	
+
+Arsenal	Chelsea	0 : 2	
+Middlesbrough	Tottenham	3 : 3	
+ManchesterCity	Birmingham 	4 : 1	
+WestHam	Newcastle	2 : 4	
+Everton	Bolton	0 : 4	
+Fulham	Blackburn	2 : 1	
+Portsmouth	WestBrom	1 : 0	
+Wigan	Charlton	3 : 0	
+AstonVilla	ManchesterUtd	0 : 2	
+
+Everton	WestHam	1 : 2	
+ManchesterUtd	Wigan	4 : 0	
+
+Tottenham	Portsmouth	3 : 1	
+ManchesterUtd	Everton	1 : 1	
+Newcastle	Arsenal 	1 : 0	
+Birmingham	Fulham	1 : 0	
+Blackburn	WestHam	3 : 2	
+Bolton	AstonVilla	1 : 1	
+Charlton	Sunderland	2 : 0	
+Chelsea	Wigan	1 : 0	
+WestBrom	ManchesterCity 	2 : 0	
+Liverpool	Middlesbrough 	2 : 0	
+
+Birmingham	WestHam	1 : 2	
+Charlton	ManchesterCity	2 : 5	
+ManchesterUtd	Portsmouth	3 : 0	
+Blackburn 	Everton	0 : 2	
+Bolton	Arsenal	2 : 0	
+Chelsea	Middlesbrough	1 : 0	
+Newcastle	AstonVilla	1 : 1	
+Tottenham	Sunderland	3 : 2	
+WestBrom	Fulham 	0 : 0	
+Liverpool	Wigan	3 : 0	
+
+Sunderland	Liverpool 	0 : 2	
+
+WestHam	ManchesterUtd	1 : 2	
+Middlesbrough	WestBrom	2 : 2	
+Fulham	Bolton	2 : 1	
+Everton	Newcastle	1 : 0	
+Portsmouth	Chelsea	0 : 2	
+Arsenal	Blackburn	3 : 0	
+AstonVilla	Charlton	1 : 0	
+ManchesterCity	Liverpool	0 : 1	
+Sunderland	Birmingham	0 : 1	
+Wigan	Tottenham	1 : 2	
+
+Middlesbrough	Fulham	3 : 2	
+Tottenham	WestHam	1 : 1	
+WestBrom	Everton	4 : 0	
+Charlton	ManchesterUtd	1 : 3	
+Chelsea	Newcastle	3 : 0	
+Liverpool	Portsmouth	3 : 0	
+ManchesterCity	Blackburn	0 : 0	
+Sunderland	AstonVilla	1 : 3	
+Wigan	Arsenal	2 : 3	
+
+Bolton	Tottenham	1 : 0	
+ManchesterUtd	Chelsea	1 : 0	
+Everton	Middlesbrough	1 : 0	
+Portsmouth	Wigan	0 : 2	
+Arsenal	Sunderland	3 : 1	
+Blackburn	Charlton	4 : 1	
+Fulham	ManchesterCity	2 : 1	
+Newcastle	Birmingham	1 : 0	
+WestHam	WestBrom	1 : 0	
+AstonVilla	Liverpool	0 : 2	
+
+ManchesterCity	AstonVilla	3 : 1	
+WestBrom	Newcastle	0 : 3	
+Middlesbrough	ManchesterUtd	4 : 1	
+Birmingham	Everton	0 : 1	
+Charlton	Bolton	0 : 1	
+Chelsea	Blackburn	4 : 2	
+Liverpool	WestHam	2 : 0	
+Sunderland	Portsmouth	1 : 4	
+Tottenham	Arsenal	1 : 1	
+Wigan	Fulham	1 : 0	
+
+Everton	Chelsea	1 : 1	
+Bolton	WestBrom	2 : 0	
+WestHam	Middlesbrough	2 : 1	
+Newcastle	Sunderland	3 : 2	
+Portsmouth	Charlton	1 : 2	
+Arsenal	ManchesterCity	1 : 0	
+AstonVilla	Wigan	0 : 2	
+Fulham	Liverpool	2 : 0	
+ManchesterUtd	Tottenham	1 : 1	
+Blackburn	Birmingham	2 : 0	
+
+Charlton	Fulham	1 : 1	
+ManchesterCity	WestHam	2 : 1	
+Birmingham	AstonVilla	0 : 1	
+Middlesbrough	Portsmouth	1 : 1	
+Chelsea	Bolton 	5 : 1	
+Liverpool	Blackburn 	1 : 0	
+Sunderland	ManchesterUtd	1 : 3	
+Tottenham	Everton	2 : 0	
+WestBrom	Arsenal	2 : 1	
+Wigan 	Newcastle	1 : 0	
+
+Liverpool	Chelsea	1 : 4	
+AstonVilla	Middlesbrough	2 : 3	
+Arsenal	Birmingham 	1 : 0	
+Wigan	Bolton	2 : 1	
+ManchesterCity	Everton	2 : 0	
+Sunderland	WestHam	1 : 1	
+Blackburn	WestBrom	2 : 0	
+Charlton	Tottenham	2 : 3	
+Fulham	ManchesterUtd	2 : 3	
+Portsmouth	Newcastle	0 : 0	
+
+Tottenham	Fulham	1 : 0	
+Middlesbrough	Sunderland	0 : 2	
+Bolton	Portsmouth	1 : 0	
+Chelsea	AstonVilla	2 : 1	
+Everton	Wigan	0 : 1	
+ManchesterUtd	Blackburn	1 : 2	
+Newcastle	ManchesterCity	1 : 0	
+WestBrom	Charlton	1 : 2	
+WestHam	Arsenal	0 : 0	
+Birmingham 	Liverpool	2 : 2	
+
+Arsenal	Everton	2 : 0	
+ManchesterCity	Bolton	0 : 1	
+Wigan	Middlesbrough	1 : 1	
+Blackburn	Newcastle 	0 : 3	
+Liverpool	ManchesterUtd	0 : 0	
+AstonVilla	Tottenham	1 : 1	
+Charlton	Chelsea	0 : 2	
+Fulham	WestHam	1 : 2	
+Portsmouth	Birmingham 	1 : 1	
+Sunderland	WestBrom	1 : 1	
+
+WestHam	AstonVilla	4 : 0	
+Bolton	Blackburn	0 : 0	
+Middlesbrough	Arsenal	2 : 1	
+Birmingham	Charlton	0 : 1	
+Chelsea	Sunderland	2 : 0	
+Everton	Portsmouth	0 : 1	
+Newcastle 	Fulham	1 : 1	
+Tottenham	Liverpool	0 : 0	
+WestBrom	Wigan	1 : 2	
+ManchesterUtd	ManchesterCity	1 : 1	
+
+Newcastle	ManchesterUtd	0 : 2	
+Middlesbrough	Charlton	0 : 3	
+AstonVilla	Blackburn	1 : 0	
+Fulham	Everton 	1 : 0	
+ManchesterCity	Portsmouth	2 : 1	
+Tottenham 	Chelsea	0 : 2	
+WestHam	Bolton	1 : 2	
+Wigan	Sunderland	1 : 0	
+WestBrom	Birmingham	2 : 3	
+
+Blackburn 	Tottenham	0 : 0	
+Bolton	Newcastle	2 : 0	
+Arsenal	Fulham	4 : 1	
+Chelsea	WestBrom	4 : 0	
+Birmingham	Middlesbrough	0 : 3	
+Portsmouth	AstonVilla 	1 : 1	
+Sunderland	ManchesterCity	1 : 2	
+
+Chelsea	Arsenal	1 : 0	
+Bolton	Everton	0 : 1	
+Birmingham	ManchesterCity	1 : 2	
+Blackburn	Fulham	2 : 1	
+Charlton	Wigan	1 : 0	
+Liverpool	Sunderland 	1 : 0	
+Newcastle	WestHam 	0 : 0	
+Tottenham	Middlesbrough	2 : 0	
+WestBrom	Portsmouth	2 : 1	
+ManchesterUtd	AstonVilla	1 : 0	
+
+Wigan	Chelsea	0 : 1	
+Arsenal	Newcastle 	2 : 0	
+Middlesbrough 	Liverpool	0 : 0	
+AstonVilla	Bolton	2 : 2	
+Fulham	Birmingham	0 : 0	
+ManchesterCity	WestBrom	0 : 0	
+Portsmouth	Tottenham	0 : 2	
+Sunderland	Charlton 	1 : 3	
+WestHam	Blackburn 	3 : 1	
+Everton	ManchesterUtd	0 : 2	

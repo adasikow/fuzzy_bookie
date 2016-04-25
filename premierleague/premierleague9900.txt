@@ -1,0 +1,434 @@
+
+AstonVilla	ManchesterUtd	0 : 1	
+Bradford	Liverpool	1 : 0	
+Chelsea	Derby	4 : 0	
+Everton	Middlesbrough	0 : 2	
+Newcastle	Arsenal	4 : 2	
+SheffieldWed	Leicester	4 : 0	
+Southampton	WimbledonFC	2 : 0	
+Tottenham	Sunderland	3 : 1	
+Watford	Coventry	1 : 0	
+WestHam	Leeds	0 : 0	
+
+Arsenal	SheffieldWed	3 : 3	
+
+Leeds	Everton	1 : 1	
+Liverpool	Southampton	0 : 0	
+Arsenal	Chelsea	2 : 1	
+Coventry	SheffieldWed	4 : 1	
+Derby	Newcastle	0 : 0	
+Leicester	Bradford	3 : 0	
+ManchesterUtd	Tottenham	3 : 1	
+Middlesbrough	Watford	1 : 1	
+Sunderland	WestHam	1 : 0	
+WimbledonFC	AstonVilla	2 : 2	
+
+Leeds	Watford	3 : 1	
+
+Liverpool	Leicester	0 : 2	
+
+Arsenal	WestHam	2 : 1	
+Middlesbrough	Newcastle	2 : 2	
+
+Bradford	WimbledonFC	3 : 0	
+SheffieldWed	Leeds	0 : 3	
+AstonVilla	Sunderland	1 : 1	
+Chelsea	Liverpool	2 : 0	
+Everton	Arsenal	0 : 1	
+Newcastle	Coventry	2 : 0	
+Southampton	Leicester	1 : 2	
+Tottenham	Derby	1 : 1	
+Watford	ManchesterUtd	2 : 3	
+WestHam	Middlesbrough	0 : 1	
+
+Derby	Southampton	2 : 0	
+ManchesterUtd	Chelsea	3 : 2	
+Sunderland	Bradford	0 : 1	
+
+Newcastle	Leeds	2 : 2	
+Watford	Arsenal	2 : 3	
+AstonVilla	Leicester	2 : 2	
+Chelsea	Middlesbrough	1 : 1	
+SheffieldWed	Sunderland	0 : 2	
+Southampton	ManchesterUtd	1 : 3	
+Tottenham	WimbledonFC	2 : 0	
+WestHam	Coventry	5 : 0	
+Bradford	Derby	4 : 4	
+Everton	Liverpool	0 : 0	
+
+Leicester	Tottenham	0 : 1	
+
+Leeds	Arsenal	0 : 4	
+WimbledonFC	Liverpool	1 : 2	
+Coventry	Middlesbrough	2 : 1	
+Derby	WestHam	1 : 2	
+Everton	Bradford	4 : 0	
+ManchesterUtd	Sunderland	4 : 0	
+Newcastle	Leicester	0 : 2	
+SheffieldWed	Chelsea	1 : 0	
+Southampton	Watford	2 : 0	
+Tottenham	AstonVilla	2 : 4	
+
+Chelsea	Coventry	2 : 1	
+WestHam	Newcastle	2 : 1	
+
+WimbledonFC	SheffieldWed	0 : 2	
+
+Middlesbrough	ManchesterUtd	3 : 4	
+AstonVilla	Leeds	1 : 0	
+Liverpool	Tottenham	2 : 0	
+Bradford	Southampton	1 : 2	
+Leicester	Everton	1 : 1	
+Sunderland	WimbledonFC	2 : 1	
+Watford	Derby	0 : 0	
+
+SheffieldWed	AstonVilla	0 : 1	
+Tottenham	Middlesbrough	2 : 3	
+Derby	Leicester	3 : 0	
+Coventry	Liverpool	0 : 3	
+Everton	Watford	4 : 2	
+Leeds	Chelsea	0 : 1	
+ManchesterUtd	WestHam	7 : 1	
+Newcastle	Bradford	2 : 0	
+Southampton	Sunderland	1 : 2	
+WimbledonFC	Arsenal	1 : 3	
+
+Arsenal	Coventry	3 : 0	
+Leicester	Leeds	2 : 1	
+WestHam	WimbledonFC	2 : 1	
+AstonVilla	Derby	2 : 0	
+Bradford	ManchesterUtd	0 : 4	
+Chelsea	Southampton	1 : 1	
+Liverpool	Newcastle	2 : 1	
+Middlesbrough	SheffieldWed	1 : 0	
+Sunderland	Everton	2 : 1	
+Watford	Tottenham	1 : 1	
+
+Arsenal	Tottenham	2 : 1	
+Everton	Newcastle	0 : 2	
+Leeds	WimbledonFC	4 : 1	
+Coventry	Bradford	4 : 0	
+Derby	Liverpool	0 : 2	
+Leicester	ManchesterUtd	0 : 2	
+Southampton	AstonVilla	2 : 0	
+Sunderland	Middlesbrough	1 : 1	
+Watford	SheffieldWed	1 : 0	
+WestHam	Chelsea	0 : 0	
+
+Coventry	Everton	1 : 0	
+Liverpool	AstonVilla	0 : 0	
+
+Bradford	Leeds	1 : 2	
+Middlesbrough	Arsenal	2 : 1	
+AstonVilla	Coventry	1 : 0	
+Chelsea	Everton	1 : 1	
+Liverpool	Sunderland	1 : 1	
+ManchesterUtd	Derby	3 : 1	
+Newcastle	Watford	1 : 0	
+SheffieldWed	WestHam	3 : 1	
+Tottenham	Southampton	7 : 2	
+WimbledonFC	Leicester	2 : 1	
+
+WestHam	Southampton	2 : 0	
+
+AstonVilla	Arsenal	1 : 1	
+Leeds	Coventry	3 : 0	
+Leicester	Sunderland	5 : 2	
+Derby	WimbledonFC	4 : 0	
+Everton	SheffieldWed	1 : 1	
+ManchesterUtd	Liverpool	1 : 1	
+Newcastle	Chelsea	0 : 1	
+Southampton	Middlesbrough	1 : 1	
+Tottenham	Bradford	1 : 1	
+Watford	WestHam	1 : 2	
+
+Arsenal	Southampton	3 : 1	
+Bradford	AstonVilla	1 : 1	
+Chelsea	Watford	2 : 1	
+Coventry	Tottenham	0 : 1	
+Middlesbrough	Leeds	0 : 0	
+SheffieldWed	Newcastle	0 : 2	
+Sunderland	Derby	1 : 1	
+WestHam	Everton	0 : 4	
+WimbledonFC	ManchesterUtd	2 : 2	
+
+Leeds	ManchesterUtd	0 : 1	
+
+Middlesbrough	Coventry	2 : 0	
+
+Middlesbrough	AstonVilla	0 : 4	
+Arsenal	Liverpool	0 : 1	
+Chelsea	WimbledonFC	3 : 1	
+Coventry	Sunderland	3 : 2	
+Everton	Derby	2 : 1	
+Leeds	Tottenham	1 : 0	
+Newcastle	ManchesterUtd	3 : 0	
+SheffieldWed	Southampton	0 : 1	
+Watford	Leicester	1 : 1	
+WestHam	Bradford	5 : 4	
+
+WimbledonFC	Everton	0 : 3	
+AstonVilla	Watford	4 : 0	
+Bradford	Arsenal	2 : 1	
+Derby	SheffieldWed	3 : 3	
+Leicester	Middlesbrough	2 : 1	
+Liverpool	Leeds	3 : 1	
+ManchesterUtd	Coventry	3 : 2	
+Southampton	WestHam	2 : 1	
+Sunderland	Newcastle	2 : 2	
+Tottenham	Chelsea	0 : 1	
+
+SheffieldWed	ManchesterUtd	0 : 1	
+
+ManchesterUtd	Middlesbrough	1 : 0	
+
+ManchesterUtd	Arsenal	1 : 1	
+Sunderland	Leeds	1 : 2	
+AstonVilla	Chelsea	0 : 0	
+Bradford	Watford	3 : 2	
+Derby	Coventry	0 : 0	
+Leicester	WestHam	1 : 3	
+Liverpool	Middlesbrough	0 : 0	
+Southampton	Everton	2 : 0	
+Tottenham	SheffieldWed	0 : 1	
+WimbledonFC	Newcastle	2 : 0	
+
+Newcastle	Southampton	5 : 0	
+Arsenal	Sunderland	4 : 1	
+Chelsea	Leicester	1 : 1	
+Coventry	WimbledonFC	2 : 0	
+Everton	Tottenham	2 : 2	
+Middlesbrough	Derby	1 : 4	
+SheffieldWed	Bradford	2 : 0	
+Watford	Liverpool	2 : 3	
+WestHam	AstonVilla	1 : 1	
+
+Chelsea	Tottenham	1 : 0	
+
+Bradford	Chelsea	1 : 1	
+
+Coventry	Chelsea	2 : 2	
+Derby	Watford	2 : 0	
+Everton	Leicester	2 : 2	
+Leeds	AstonVilla	1 : 2	
+Newcastle	WestHam	2 : 2	
+SheffieldWed	Arsenal	1 : 1	
+Southampton	Bradford	1 : 0	
+Tottenham	Liverpool	1 : 0	
+WimbledonFC	Sunderland	1 : 0	
+
+AstonVilla	Tottenham	1 : 1	
+Chelsea	SheffieldWed	3 : 0	
+Arsenal	Leeds	2 : 0	
+Bradford	Everton	0 : 0	
+Leicester	Newcastle	1 : 2	
+Liverpool	WimbledonFC	3 : 1	
+Sunderland	ManchesterUtd	2 : 2	
+Watford	Southampton	3 : 2	
+WestHam	Derby	1 : 1	
+
+Coventry	Arsenal	3 : 2	
+Derby	AstonVilla	0 : 2	
+Everton	Sunderland	5 : 0	
+Leeds	Leicester	2 : 1	
+ManchesterUtd	Bradford	4 : 0	
+Newcastle	Liverpool	2 : 2	
+SheffieldWed	Middlesbrough	1 : 0	
+Southampton	Chelsea	1 : 2	
+Tottenham	Watford	4 : 0	
+WimbledonFC	WestHam	2 : 2	
+
+Chelsea	Leeds	0 : 2	
+Arsenal	WimbledonFC	1 : 1	
+AstonVilla	SheffieldWed	2 : 1	
+Bradford	Newcastle	2 : 0	
+Leicester	Derby	0 : 1	
+Liverpool	Coventry	2 : 0	
+Middlesbrough	Tottenham	2 : 1	
+Sunderland	Southampton	2 : 0	
+Watford	Everton	1 : 3	
+WestHam	ManchesterUtd	2 : 4	
+
+Tottenham	WestHam	0 : 0	
+Derby	Leeds	0 : 1	
+Liverpool	SheffieldWed	4 : 1	
+AstonVilla	Newcastle	0 : 1	
+Bradford	Middlesbrough	1 : 1	
+Leicester	Arsenal	0 : 3	
+ManchesterUtd	Everton	5 : 1	
+Southampton	Coventry	0 : 0	
+Sunderland	Chelsea	4 : 1	
+WimbledonFC	Watford	5 : 0	
+
+Arsenal	Derby	2 : 1	
+Chelsea	Bradford	1 : 0	
+Leeds	Southampton	1 : 0	
+Newcastle	Tottenham	2 : 1	
+Coventry	Leicester	0 : 1	
+Everton	AstonVilla	0 : 0	
+Middlesbrough	WimbledonFC	0 : 0	
+Watford	Sunderland	2 : 3	
+WestHam	Liverpool	1 : 0	
+
+Coventry	AstonVilla	2 : 1	
+WestHam	SheffieldWed	4 : 3	
+Arsenal	Middlesbrough	5 : 1	
+Derby	ManchesterUtd	1 : 2	
+Everton	Chelsea	1 : 1	
+Leeds	Bradford	2 : 1	
+Leicester	WimbledonFC	2 : 1	
+Southampton	Tottenham	0 : 1	
+Sunderland	Liverpool	0 : 2	
+Watford	Newcastle	1 : 1	
+
+Chelsea	WestHam	0 : 0	
+Newcastle	Everton	1 : 1	
+Tottenham	Arsenal	2 : 1	
+WimbledonFC	Leeds	2 : 0	
+AstonVilla	Southampton	0 : 1	
+Bradford	Coventry	1 : 1	
+Liverpool	Derby	2 : 0	
+ManchesterUtd	Leicester	2 : 0	
+Middlesbrough	Sunderland	1 : 1	
+SheffieldWed	Watford	2 : 2	
+
+Liverpool	Bradford	3 : 1	
+Coventry	Watford	4 : 0	
+Sunderland	Tottenham	2 : 1	
+Arsenal	Newcastle	0 : 0	
+Derby	Chelsea	3 : 1	
+Leeds	WestHam	1 : 0	
+Leicester	SheffieldWed	3 : 0	
+ManchesterUtd	AstonVilla	3 : 0	
+Middlesbrough	Everton	2 : 1	
+WimbledonFC	Southampton	1 : 1	
+
+Liverpool	WestHam	1 : 0	
+
+Newcastle	Derby	2 : 0	
+Everton	Leeds	4 : 4	
+Watford	Middlesbrough	1 : 3	
+WestHam	Sunderland	1 : 1	
+AstonVilla	WimbledonFC	1 : 1	
+Bradford	Leicester	3 : 1	
+Chelsea	Arsenal	2 : 3	
+SheffieldWed	Coventry	0 : 0	
+Southampton	Liverpool	1 : 1	
+Tottenham	ManchesterUtd	3 : 1	
+
+Sunderland	AstonVilla	2 : 1	
+Middlesbrough	WestHam	2 : 0	
+Arsenal	Everton	4 : 1	
+Coventry	Newcastle	4 : 1	
+Derby	Tottenham	0 : 1	
+Leeds	SheffieldWed	2 : 0	
+Leicester	Southampton	2 : 1	
+Liverpool	Chelsea	1 : 0	
+ManchesterUtd	Watford	4 : 1	
+WimbledonFC	Bradford	3 : 2	
+
+Southampton	Derby	3 : 3	
+Chelsea	ManchesterUtd	5 : 0	
+Newcastle	Middlesbrough	2 : 1	
+Tottenham	Leicester	2 : 3	
+Watford	Leeds	1 : 2	
+WestHam	Arsenal	2 : 1	
+AstonVilla	Liverpool	0 : 0	
+Bradford	Sunderland	0 : 4	
+Everton	Coventry	1 : 1	
+SheffieldWed	WimbledonFC	5 : 1	
+
+Liverpool	Everton	0 : 1	
+WimbledonFC	Tottenham	1 : 1	
+Arsenal	Watford	1 : 0	
+Coventry	WestHam	1 : 0	
+Derby	Bradford	0 : 1	
+Leeds	Newcastle	3 : 2	
+Leicester	AstonVilla	3 : 1	
+ManchesterUtd	Southampton	3 : 3	
+Middlesbrough	Chelsea	0 : 1	
+Sunderland	SheffieldWed	1 : 0	
+
+Everton	WestHam	1 : 0	
+Leeds	Middlesbrough	2 : 0	
+Newcastle	SheffieldWed	8 : 0	
+Tottenham	Coventry	3 : 2	
+AstonVilla	Bradford	1 : 0	
+Derby	Sunderland	0 : 5	
+Leicester	Liverpool	2 : 2	
+ManchesterUtd	WimbledonFC	1 : 1	
+Southampton	Arsenal	0 : 1	
+Watford	Chelsea	1 : 0	
+
+Bradford	Tottenham	1 : 1	
+Arsenal	AstonVilla	3 : 1	
+Chelsea	Newcastle	1 : 0	
+Coventry	Leeds	3 : 4	
+Liverpool	ManchesterUtd	2 : 3	
+Middlesbrough	Southampton	3 : 2	
+SheffieldWed	Everton	0 : 2	
+Sunderland	Leicester	2 : 0	
+WestHam	Watford	1 : 0	
+WimbledonFC	Derby	2 : 2	
+
+Leicester	Watford	1 : 0	
+ManchesterUtd	Newcastle	5 : 1	
+Sunderland	Coventry	1 : 1	
+AstonVilla	Middlesbrough	1 : 0	
+Bradford	WestHam	0 : 3	
+Derby	Everton	1 : 0	
+Liverpool	Arsenal	2 : 0	
+Southampton	SheffieldWed	2 : 0	
+Tottenham	Leeds	1 : 2	
+WimbledonFC	Chelsea	0 : 1	
+
+Arsenal	Bradford	2 : 0	
+Coventry	ManchesterUtd	1 : 2	
+Everton	WimbledonFC	4 : 0	
+Newcastle	Sunderland	1 : 2	
+SheffieldWed	Derby	0 : 2	
+Middlesbrough	Leicester	0 : 3	
+Watford	AstonVilla	0 : 1	
+Leeds	Liverpool	1 : 2	
+
+Arsenal	ManchesterUtd	1 : 2	
+Chelsea	AstonVilla	1 : 0	
+Coventry	Derby	2 : 0	
+Everton	Southampton	4 : 1	
+Leeds	Sunderland	2 : 1	
+Middlesbrough	Liverpool	1 : 0	
+Newcastle	WimbledonFC	3 : 3	
+SheffieldWed	Tottenham	1 : 2	
+Watford	Bradford	1 : 0	
+WestHam	Leicester	2 : 1	
+
+AstonVilla	WestHam	2 : 2	
+Southampton	Newcastle	4 : 2	
+Bradford	SheffieldWed	1 : 1	
+Derby	Middlesbrough	1 : 3	
+Leicester	Chelsea	2 : 2	
+Liverpool	Watford	0 : 1	
+ManchesterUtd	Leeds	2 : 0	
+Sunderland	Arsenal	0 : 0	
+Tottenham	Everton	3 : 2	
+WimbledonFC	Coventry	1 : 1	
+
+AstonVilla	Everton	3 : 0	
+Leicester	Coventry	1 : 0	
+ManchesterUtd	SheffieldWed	4 : 0	
+Southampton	Leeds	0 : 3	
+Derby	Arsenal	1 : 2	
+Sunderland	Watford	2 : 0	
+WimbledonFC	Middlesbrough	2 : 3	
+Tottenham	Newcastle	3 : 1	
+
+Everton	ManchesterUtd	1 : 1	
+Arsenal	Leicester	2 : 1	
+Chelsea	Sunderland	4 : 0	
+Coventry	Southampton	0 : 1	
+Leeds	Derby	0 : 0	
+Middlesbrough	Bradford	0 : 1	
+Newcastle	AstonVilla	0 : 1	
+SheffieldWed	Liverpool	1 : 2	
+Watford	WimbledonFC	2 : 3	
+WestHam	Tottenham	1 : 0	
