@@ -108,6 +108,36 @@ def get_side_rating(results_base, team, side):
         get_number_of_points_in_last_games(results_base, 30, team, side=side) * last_30_games_coefficient / 90.0
 
 
+def compare_teams(results_base, home, away):
+    home_side_result_coefficient = 2.0
+    away_side_result_coefficient = 1.0
+    n = len(results_base[home][away])
+    home_side_results = results_base[home][away]
+    away_side_results = results_base[away][home]
+    home_team_points = 0.0
+    away_team_points = 0.0
+    for i in range(n):
+        time_coefficient = float(n - i) / n
+
+        if home_side_results[i][0] > home_side_results[i][1]:
+            home_team_points += home_side_result_coefficient * 3.0 * time_coefficient
+        elif home_side_results[i][0] < home_side_results[i][1]:
+            away_team_points += home_side_result_coefficient * 3.0 * time_coefficient
+        else:  # home_side_results[i][0] == home_side_results[i][1]
+            home_team_points += home_side_result_coefficient * 1.0 * time_coefficient
+            away_team_points += home_side_result_coefficient * 1.0 * time_coefficient
+
+        if away_side_results[i][0] > away_side_results[i][1]:
+            home_team_points += away_side_result_coefficient * 3.0 * time_coefficient
+        elif away_side_results[i][0] < away_side_results[i][1]:
+            away_team_points += away_side_result_coefficient * 3.0 * time_coefficient
+        else:  # away_side_results[i][0] == away_side_results[i][1]
+            home_team_points += away_side_result_coefficient * 1.0 * time_coefficient
+            away_team_points += away_side_result_coefficient * 1.0 * time_coefficient
+
+    return home_team_points / (home_team_points + away_team_points)
+
+
 def main():
     results_base = {}
     get_results_history(results_base, '14', '15')
@@ -137,6 +167,8 @@ def main():
 
     team1 = 'Arsenal'
     team2 = 'ManchesterUtd'
+    team3 = 'ManchesterCity'
+    team4 = 'Chelsea'
 
     for result in recent_results[team1]:
         if result[0] == HOME:
@@ -167,10 +199,21 @@ def main():
     print get_form_rating(recent_results, team2)
     print get_side_rating(recent_results, team2, HOME)
     print get_side_rating(recent_results, team2, AWAY)
+    print team3 + ':'
+    print get_form_rating(recent_results, team3)
+    print get_side_rating(recent_results, team3, HOME)
+    print get_side_rating(recent_results, team3, AWAY)
+    print team4 + ':'
+    print get_form_rating(recent_results, team4)
+    print get_side_rating(recent_results, team4, HOME)
+    print get_side_rating(recent_results, team4, AWAY)
 
-    for result in recent_results[team2]:
+    for result in recent_results[team3]:
         if result[0] == AWAY:
-            print "{0} {1} : {2} {3}".format(result[1], result[2], result[3], team2)
+            print "{0} {1} : {2} {3}".format(result[1], result[2], result[3], team3)
+
+    print compare_teams(results_base, team1, team2)
+    print compare_teams(results_base, team2, team1)
 
 
 def fuzzy_example():
