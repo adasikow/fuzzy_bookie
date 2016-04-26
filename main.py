@@ -220,6 +220,14 @@ def main():
     for result in results_base[team2][team1]:
             print result
 
+    predict(
+        get_form_rating(recent_results, team1),
+        get_form_rating(recent_results, team2),
+        get_side_rating(recent_results, team1, HOME),
+        get_side_rating(recent_results, team2, AWAY),
+        compare_teams(results_base, team1, team2)
+    )
+
 
 def fuzzy_example():
     system = fuzzy.storage.fcl.Reader.Reader().load_from_file("example.fcl")
@@ -238,7 +246,62 @@ def fuzzy_example():
     print "Fuzzy example result: " + str(my_output["Aggressiveness"])
 
 
+def generate_rules():
+    input_var_names = ['Home_Team_Form', 'Away_Team_Form', 'Home_Side_Advantage', 'Away_Side_Advantage', 'Home_Team_Win_Probability']
+    input_var_values = {
+        'Home_Team_Form': ['Good', 'Bad'],
+        'Away_Team_Form': ['Good', 'Bad'],
+        'Home_Side_Advantage': ['High', 'Low'],
+        'Away_Side_Advantage': ['High', 'Low'],
+        'Home_Team_Win_Probability': ['High', 'Average', 'Low']
+    }
+
+    i = 0
+    for v0 in input_var_values[input_var_names[0]]:
+        for v1 in input_var_values[input_var_names[1]]:
+            for v2 in input_var_values[input_var_names[2]]:
+                for v3 in input_var_values[input_var_names[3]]:
+                    for v4 in input_var_values[input_var_names[4]]:
+                        print "        RULE {0}: IF " \
+                              "(Home_Team_Form IS {1}) AND " \
+                              "(Away_Team_Form IS {2}) AND " \
+                              "(Home_Side_Advantage IS {3}) AND " \
+                              "(Away_Side_Advantage IS {4}) AND " \
+                              "(Home_Team_Win_Probability IS {5}) " \
+                              "THEN (Result IS Home_Win);".format(
+                            i, v0, v1, v2, v3, v4
+                        )
+                        i += 1
+
+
+def predict(home_team_form, away_team_form, home_side_advantage, away_side_advantage, home_team_win_probability):
+    system = fuzzy.storage.fcl.Reader.Reader().load_from_file("bookie.fcl")
+
+    my_input = {
+        "Home_Team_Form": home_team_form,
+        "Away_Team_Form": away_team_form,
+        "Home_Side_Advantage": home_side_advantage,
+        "Away_Side_Advantage": away_side_advantage,
+        "Home_Team_Win_Probability": home_team_win_probability
+    }
+
+    my_output = {
+        "Result": 1.0
+    }
+
+    system.calculate(my_input, my_output)
+
+    if my_output["Result"] == 1.0:
+        print "Home team win"
+    elif my_output["Result"] == 2.0:
+        print "Away team win"
+    elif my_output["Result"] == 3.0:
+        print "Draw"
+    else:
+        print "fail"
+
 if __name__ == "__main__":
     main()
     fuzzy_example()
+    #generate_rules()
 
