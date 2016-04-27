@@ -189,8 +189,8 @@ def main():
     get_latest_results(recent_results, '11', '12')
     get_latest_results(recent_results, '10', '11')
 
-    home_team = 'Stoke'
-    away_team = 'Arsenal'
+    home_team = 'Arsenal'
+    away_team = 'Chelsea'
 
     predict(
         get_form_rating(recent_results, home_team),
