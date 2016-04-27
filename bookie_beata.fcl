@@ -1,0 +1,64 @@
+FUNCTION_BLOCK bookie
+
+    VAR_INPUT
+        Home_Team_Form :            REAL; (* RANGE(0 .. 6) *)
+        Away_Team_Form :            REAL; (* RANGE(0 .. 6) *)
+        Home_Side_Advantage :       REAL; (* RANGE(0 .. 6) *)
+        Away_Side_Advantage :       REAL; (* RANGE(0 .. 6) *)
+        Home_Team_Win_Probability : REAL; (* RANGE(0 .. 1) *)
+    END_VAR
+
+    VAR_OUTPUT
+        Result : REAL; (* RANGE(0 .. 3) *)
+    END_VAR
+
+    FUZZIFY Home_Team_Form
+        TERM Good := (3, 0) (5, 1) (6, 1) ;
+        TERM Bad := (0, 1) (2, 1) (4, 0) ;
+    END_FUZZIFY
+
+    FUZZIFY Away_Team_Form
+        TERM Good := (3, 0) (5, 1) (6, 1) ;
+        TERM Bad := (0, 1) (2, 1) (4, 0) ;
+    END_FUZZIFY
+
+    FUZZIFY Home_Side_Advantage
+        TERM High := (3, 0) (5, 1) (6, 1) ;
+        TERM Low := (0, 1) (2, 1) (4, 0) ;
+    END_FUZZIFY
+
+    FUZZIFY  Away_Side_Advantage
+        TERM High := (3, 0) (5, 1) (6, 1) ;
+        TERM Low := (0, 1) (2, 1) (4, 0) ;
+    END_FUZZIFY
+
+    FUZZIFY Home_Team_Win_Probability
+        TERM High := (0.6, 0) (0.8, 1) (1, 1) ;
+        TERM Average := (0.3, 0) (0.4, 1) (0.6, 1) (0.7, 0) ;
+        TERM Low := (0, 1) (0.2, 1) (0.4, 0) ;
+    END_FUZZIFY
+
+    DEFUZZIFY Result
+        TERM Home_Win := 1 ;
+        TERM Away_Win := 2 ;
+        TERM Draw := 3 ;
+        ACCU:MAX;
+        METHOD: COGS;(*MoM;*)
+        DEFAULT := 0;
+    END_DEFUZZIFY
+
+    RULEBLOCK first
+        AND:MIN;
+        (*ACCU:MAX;*)
+		RULE 0: IF (Home_Team_Form IS Good) AND (Away_Team_Form IS Bad) AND (Home_Team_Win_Probability IS High) THEN (Result IS Home_Win);
+		RULE 1: IF (Home_Team_Form IS Bad) AND (Away_Team_Form IS Good) AND (Home_Team_Win_Probability IS Low) THEN (Result IS Away_Win);
+		RULE 2: IF (Home_Team_Form IS Good) AND (Away_Team_Form IS Good) AND (Home_Side_Advantage IS High) AND (Away_Side_Advantage IS Low) THEN (Result IS Home_Win);
+		RULE 3: IF (Home_Team_Form IS Good) AND (Away_Team_Form IS Good) AND (Home_Side_Advantage IS High) AND (Away_Side_Advantage IS High) THEN (Result IS Draw);
+		RULE 4: IF (Home_Team_Form IS Bad) AND (Away_Team_Form IS Bad) AND (Home_Side_Advantage IS High) AND (Away_Side_Advantage IS High) THEN (Result IS Draw);
+		RULE 5: IF (Home_Team_Form IS Bad) AND (Away_Team_Form IS Bad) AND (Home_Side_Advantage IS High) AND (Away_Side_Advantage IS Low) THEN (Result IS Home_Win);
+		RULE 6: IF (Home_Side_Advantage IS Low) AND (Away_Side_Advantage IS High) AND (Home_Team_Win_Probability IS Low) THEN (Result IS Away_Win);
+		RULE 7: IF (Home_Side_Advantage IS Low) AND (Away_Side_Advantage IS Low) AND (Home_Team_Win_Probability IS Average) THEN (Result IS Draw);
+		RULE 8: IF (Home_Side_Advantage IS Low) AND (Away_Side_Advantage IS High) THEN (Result IS Away_Win);
+    END_RULEBLOCK
+
+END_FUNCTION_BLOCK

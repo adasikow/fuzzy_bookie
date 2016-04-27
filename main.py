@@ -1,4 +1,5 @@
 from collections import OrderedDict
+
 import fuzzy.storage.fcl.Reader
 
 
@@ -138,142 +139,6 @@ def compare_teams(results_base, home, away):
     return home_team_points / (home_team_points + away_team_points)
 
 
-def main():
-    results_base = {}
-    get_results_history(results_base, '14', '15')
-    get_results_history(results_base, '13', '14')
-    get_results_history(results_base, '12', '13')
-    get_results_history(results_base, '11', '12')
-    get_results_history(results_base, '10', '11')
-
-    recent_results = {}
-    get_latest_results(recent_results, '14', '15')
-    get_latest_results(recent_results, '13', '14')
-    get_latest_results(recent_results, '12', '13')
-    get_latest_results(recent_results, '11', '12')
-    get_latest_results(recent_results, '10', '11')
-
-    # for home in results_base.keys():
-    #     for away in results_base[home].keys():
-    #         for result in results_base[home][away]:
-    #             print "{0} {1} : {2} {3}".format(home, result[0], result[1], away)
-    #
-    # for team in recent_results.keys():
-    #     for result in recent_results[team]:
-    #         if result[0] == HOME:
-    #             print "{0} {1} : {2} {3}".format(team, result[2], result[3], result[1])
-    #         else:  # if result[0] == AWAY
-    #             print "{0} {1} : {2} {3}".format(result[1], result[2], result[3], team)
-
-    team1 = 'Arsenal'
-    team2 = 'ManchesterUtd'
-    team3 = 'ManchesterCity'
-    team4 = 'Chelsea'
-
-    for result in recent_results[team1]:
-        if result[0] == HOME:
-            print "{0} {1} : {2} {3}".format(team1, result[2], result[3], result[1])
-        else:  # if result[0] == AWAY
-            print "{0} {1} : {2} {3}".format(result[1], result[2], result[3], team1)
-
-    # for result in results_base[team1][team2]:
-    #     print "{0} {1} : {2} {3}".format(team1, result[0], result[1], team2)
-    #
-    # for result in results_base[team2][team1]:
-    #     print "{0} {1} : {2} {3}".format(team2, result[0], result[1], team1)
-
-    print get_number_of_points_in_last_games(recent_results, 5, team1)
-    print get_number_of_points_in_last_games(recent_results, 10, team1)
-    print get_number_of_points_in_last_games(recent_results, 15, team1)
-    print get_number_of_points_in_last_games(recent_results, 5, team1, side=HOME)
-    print get_number_of_points_in_last_games(recent_results, 10, team1, side=HOME)
-    print get_number_of_points_in_last_games(recent_results, 15, team1, side=HOME)
-    print get_number_of_points_in_last_games(recent_results, 5, team1, side=AWAY)
-    print get_number_of_points_in_last_games(recent_results, 10, team1, side=AWAY)
-    print get_number_of_points_in_last_games(recent_results, 15, team1, side=AWAY)
-    print team1 + ':'
-    print get_form_rating(recent_results, team1)
-    print get_side_rating(recent_results, team1, HOME)
-    print get_side_rating(recent_results, team1, AWAY)
-    print team2 + ':'
-    print get_form_rating(recent_results, team2)
-    print get_side_rating(recent_results, team2, HOME)
-    print get_side_rating(recent_results, team2, AWAY)
-    print team3 + ':'
-    print get_form_rating(recent_results, team3)
-    print get_side_rating(recent_results, team3, HOME)
-    print get_side_rating(recent_results, team3, AWAY)
-    print team4 + ':'
-    print get_form_rating(recent_results, team4)
-    print get_side_rating(recent_results, team4, HOME)
-    print get_side_rating(recent_results, team4, AWAY)
-
-    for result in recent_results[team3]:
-        if result[0] == AWAY:
-            print "{0} {1} : {2} {3}".format(result[1], result[2], result[3], team3)
-
-    print compare_teams(results_base, team1, team2)
-    print compare_teams(results_base, team2, team1)
-    for result in results_base[team1][team2]:
-        print result
-    print '---------------'
-    for result in results_base[team2][team1]:
-            print result
-
-    predict(
-        get_form_rating(recent_results, team1),
-        get_form_rating(recent_results, team2),
-        get_side_rating(recent_results, team1, HOME),
-        get_side_rating(recent_results, team2, AWAY),
-        compare_teams(results_base, team1, team2)
-    )
-
-
-def fuzzy_example():
-    system = fuzzy.storage.fcl.Reader.Reader().load_from_file("example.fcl")
-
-    my_input = {
-        "Our_Health": 100.0,
-        "Enemy_Health": 50.0
-    }
-
-    my_output = {
-        "Aggressiveness": 0.0
-    }
-
-    system.calculate(my_input, my_output)
-
-    print "Fuzzy example result: " + str(my_output["Aggressiveness"])
-
-
-def generate_rules():
-    input_var_names = ['Home_Team_Form', 'Away_Team_Form', 'Home_Side_Advantage', 'Away_Side_Advantage', 'Home_Team_Win_Probability']
-    input_var_values = {
-        'Home_Team_Form': ['Good', 'Bad'],
-        'Away_Team_Form': ['Good', 'Bad'],
-        'Home_Side_Advantage': ['High', 'Low'],
-        'Away_Side_Advantage': ['High', 'Low'],
-        'Home_Team_Win_Probability': ['High', 'Average', 'Low']
-    }
-
-    i = 0
-    for v0 in input_var_values[input_var_names[0]]:
-        for v1 in input_var_values[input_var_names[1]]:
-            for v2 in input_var_values[input_var_names[2]]:
-                for v3 in input_var_values[input_var_names[3]]:
-                    for v4 in input_var_values[input_var_names[4]]:
-                        print "        RULE {0}: IF " \
-                              "(Home_Team_Form IS {1}) AND " \
-                              "(Away_Team_Form IS {2}) AND " \
-                              "(Home_Side_Advantage IS {3}) AND " \
-                              "(Away_Side_Advantage IS {4}) AND " \
-                              "(Home_Team_Win_Probability IS {5}) " \
-                              "THEN (Result IS Home_Win);".format(
-                            i, v0, v1, v2, v3, v4
-                        )
-                        i += 1
-
-
 def predict(home_team_form, away_team_form, home_side_advantage, away_side_advantage, home_team_win_probability):
     system = fuzzy.storage.fcl.Reader.Reader().load_from_file("bookie.fcl")
 
@@ -300,8 +165,41 @@ def predict(home_team_form, away_team_form, home_side_advantage, away_side_advan
     else:
         print "fail"
 
+
+def print_results(results, team):
+    for result in results:
+        if result[0] == HOME:
+            print "{0} {1} : {2} {3}".format(team, result[2], result[3], result[1])
+        else:  # if result[0] == AWAY
+            print "{0} {1} : {2} {3}".format(result[1], result[2], result[3], team)
+
+
+def main():
+    results_base = {}
+    get_results_history(results_base, '14', '15')
+    get_results_history(results_base, '13', '14')
+    get_results_history(results_base, '12', '13')
+    get_results_history(results_base, '11', '12')
+    get_results_history(results_base, '10', '11')
+
+    recent_results = {}
+    get_latest_results(recent_results, '14', '15')
+    get_latest_results(recent_results, '13', '14')
+    get_latest_results(recent_results, '12', '13')
+    get_latest_results(recent_results, '11', '12')
+    get_latest_results(recent_results, '10', '11')
+
+    home_team = 'Stoke'
+    away_team = 'Arsenal'
+
+    predict(
+        get_form_rating(recent_results, home_team),
+        get_form_rating(recent_results, away_team),
+        get_side_rating(recent_results, home_team, HOME),
+        get_side_rating(recent_results, away_team, AWAY),
+        compare_teams(results_base, home_team, away_team)
+    )
+
+
 if __name__ == "__main__":
     main()
-    fuzzy_example()
-    #generate_rules()
-
