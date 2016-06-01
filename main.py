@@ -36,6 +36,29 @@ def get_latest_results(result_base, season_start, season_end):
     f.close()
 
 
+def get_n_last_matches(team, season_start, season_end, n):
+    result = []
+    f = open(get_file_path(season_start, season_end))
+    counter = 0
+    for line in f:
+        match_info = line.split()
+        if len(match_info) == 5:
+            home = match_info[0]
+            away = match_info[1]
+            if home == team:
+                result.append((HOME, away))
+                counter += 1
+            elif away == team:
+                result.append((AWAY, home))
+                counter += 1
+
+            if counter == n:
+                break
+
+    f.close()
+    return result
+
+
 def get_results_history(results_base, season_start, season_end):
     f = open(get_file_path(season_start, season_end))
     for line in f:
@@ -74,15 +97,18 @@ def get_number_of_points(match):
         return 1
 
 
-def get_number_of_points_in_last_games(results_base, number_of_games, team, side=None):
+def get_number_of_points_in_last_games(results_base, number_of_games, team, start, side=None):
     results = results_base[team]
     result = 0
-    it = 0
+    it = start
     i = 0
     while i < number_of_games:
         if side:
-            while results[it][0] != side:
-                it += 1
+            try:
+                while results[it][0] != side:
+                    it += 1
+            except IndexError:
+                return result
 
         result += get_number_of_points(results[it])
         it += 1
@@ -91,30 +117,34 @@ def get_number_of_points_in_last_games(results_base, number_of_games, team, side
     return result
 
 
-def get_form_rating(results_base, team):
+def get_form_rating(results_base, team, start=0):
     last_5_games_coefficient = 3.0
     last_10_games_coefficient = 2.0
     last_15_games_coefficient = 1.0
-    return get_number_of_points_in_last_games(results_base, 5, team) * last_5_games_coefficient / 15.0 + \
-        get_number_of_points_in_last_games(results_base, 10, team) * last_10_games_coefficient / 30.0 + \
-        get_number_of_points_in_last_games(results_base, 15, team) * last_15_games_coefficient / 45.0
+    return get_number_of_points_in_last_games(results_base, 5, team, start) * last_5_games_coefficient / 15.0 + \
+        get_number_of_points_in_last_games(results_base, 10, team, start) * last_10_games_coefficient / 30.0 + \
+        get_number_of_points_in_last_games(results_base, 15, team, start) * last_15_games_coefficient / 45.0
 
 
-def get_side_rating(results_base, team, side):
+def get_side_rating(results_base, team, side, start=0):
     last_10_games_coefficient = 3.0
     last_20_games_coefficient = 2.0
     last_30_games_coefficient = 1.0
-    return get_number_of_points_in_last_games(results_base, 10, team, side=side) * last_10_games_coefficient / 30.0 + \
-        get_number_of_points_in_last_games(results_base, 20, team, side=side) * last_20_games_coefficient / 60.0 + \
-        get_number_of_points_in_last_games(results_base, 30, team, side=side) * last_30_games_coefficient / 90.0
+    return get_number_of_points_in_last_games(results_base, 10, team, start, side=side) * last_10_games_coefficient / 30.0 + \
+        get_number_of_points_in_last_games(results_base, 20, team, start, side=side) * last_20_games_coefficient / 60.0 + \
+        get_number_of_points_in_last_games(results_base, 30, team, start, side=side) * last_30_games_coefficient / 90.0
 
 
-def compare_teams(results_base, home, away):
+def compare_teams(results_base, home, away, start=0):
     home_side_result_coefficient = 2.0
     away_side_result_coefficient = 1.0
-    n = len(results_base[home][away])
-    home_side_results = results_base[home][away]
-    away_side_results = results_base[away][home]
+    home_side_results = results_base[home][away][start:]
+    away_side_results = results_base[away][home][start:]
+    n = len(home_side_results)
+
+    if n == 0: # no match history for these teams, so prob is unknown
+        return 0.5
+
     home_team_points = 0.0
     away_team_points = 0.0
     for i in range(n):
@@ -139,8 +169,8 @@ def compare_teams(results_base, home, away):
     return home_team_points / (home_team_points + away_team_points)
 
 
-def predict(home_team_form, away_team_form, home_side_advantage, away_side_advantage, home_team_win_probability):
-    system = fuzzy.storage.fcl.Reader.Reader().load_from_file("bookie.fcl")
+def fuzzy_bookie(home_team_form, away_team_form, home_side_advantage, away_side_advantage, home_team_win_probability):
+    system = fuzzy.storage.fcl.Reader.Reader().load_from_file("bookie_b.fcl")
 
     my_input = {
         "Home_Team_Form": home_team_form,
@@ -156,14 +186,26 @@ def predict(home_team_form, away_team_form, home_side_advantage, away_side_advan
 
     system.calculate(my_input, my_output)
 
-    if my_output["Result"] == 1.0:
-        print "Home team win"
-    elif my_output["Result"] == 2.0:
-        print "Away team win"
-    elif my_output["Result"] == 3.0:
-        print "Draw"
+    return my_output["Result"]
+
+
+def predict(results_base, recent_results, home_team, away_team, start_form=0, start_comp=0):
+    fuzzy_result = fuzzy_bookie(
+        get_form_rating(recent_results, home_team, start_form),
+        get_form_rating(recent_results, away_team, start_form),
+        get_side_rating(recent_results, home_team, HOME, start_form),
+        get_side_rating(recent_results, away_team, AWAY, start_form),
+        compare_teams(results_base, home_team, away_team, start_comp)
+    )
+
+    if fuzzy_result == 1.0:
+        return 'home'
+    elif fuzzy_result == 2.0:
+        return 'away'
+    elif fuzzy_result == 3.0:
+        return 'draw'
     else:
-        print "fail"
+        return 'fail'
 
 
 def print_results(results, team):
@@ -172,6 +214,45 @@ def print_results(results, team):
             print "{0} {1} : {2} {3}".format(team, result[2], result[3], result[1])
         else:  # if result[0] == AWAY
             print "{0} {1} : {2} {3}".format(result[1], result[2], result[3], team)
+
+
+def match_result_to_str(match):
+    if match[0] > match[1]:
+        return 'home'
+    elif match[0] < match[1]:
+        return 'away'
+    else:
+        return 'draw'
+
+
+def is_prediction_correct(results_base, home, away, prediction, i=0):
+    if prediction == 'fail':
+        print "Prediction failed, match: {0} - {1}".format(home, away)
+
+    result = match_result_to_str(results_base[home][away][i])
+    return result == prediction
+
+
+def evaluate(results_base, recent_results, team, match_list):
+    prediction_result = 0
+
+    while len(match_list) > 0:
+        start = len(match_list)
+        match = match_list.pop()
+        side = match[0]
+        opp = match[1]
+        if side == HOME:
+            home = team
+            away = opp
+        else:  # side == AWAY
+            home = opp
+            away = team
+
+        prediction = predict(results_base, recent_results, home, away, start, 1)
+        if is_prediction_correct(results_base, home, away, prediction):
+            prediction_result += 1
+
+    return prediction_result
 
 
 def main():
@@ -189,16 +270,15 @@ def main():
     get_latest_results(recent_results, '11', '12')
     get_latest_results(recent_results, '10', '11')
 
-    home_team = 'Arsenal'
-    away_team = 'Chelsea'
+    season_start = '14'
+    season_end = '15'
+    number_of_matches = 19
 
-    predict(
-        get_form_rating(recent_results, home_team),
-        get_form_rating(recent_results, away_team),
-        get_side_rating(recent_results, home_team, HOME),
-        get_side_rating(recent_results, away_team, AWAY),
-        compare_teams(results_base, home_team, away_team)
-    )
+    team = 'Arsenal'
+    match_list = get_n_last_matches(team, season_start, season_end, number_of_matches)
+
+    print "Score: {0}/{1}".format(evaluate(results_base, recent_results, team, match_list), number_of_matches)
+    # print predict(results_base, recent_results, 'Arsenal', 'Chelsea')
 
 
 if __name__ == "__main__":
