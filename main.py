@@ -1,7 +1,12 @@
+import sys
+
 from collections import OrderedDict
 
 import fuzzy.storage.fcl.Reader
 
+
+TEST_TEAM = 'Arsenal'
+TEST_FCL = 'bookie_b.fcl'
 
 HOME = 'h'
 AWAY = 'a'
@@ -170,7 +175,7 @@ def compare_teams(results_base, home, away, start=0):
 
 
 def fuzzy_bookie(home_team_form, away_team_form, home_side_advantage, away_side_advantage, home_team_win_probability):
-    system = fuzzy.storage.fcl.Reader.Reader().load_from_file("bookie_b.fcl")
+    system = fuzzy.storage.fcl.Reader.Reader().load_from_file(TEST_FCL)
 
     my_input = {
         "Home_Team_Form": home_team_form,
@@ -228,13 +233,21 @@ def match_result_to_str(match):
 def is_prediction_correct(results_base, home, away, prediction, i=0):
     if prediction == 'fail':
         print "Prediction failed, match: {0} - {1}".format(home, away)
+        return 0
 
     result = match_result_to_str(results_base[home][away][i])
-    return result == prediction
+    if result == prediction:
+        print "Prediction correct - {0}, match: {1} - {2}".format(prediction, home, away)
+        return 1
+    else:
+        print "Prediction incorrect - {0}, result - {1},  match: {2} - {3}".format(prediction, result, home, away)
+        return -1
 
 
 def evaluate(results_base, recent_results, team, match_list):
-    prediction_result = 0
+    prediction_correct = 0
+    prediction_incorrect = 0
+    prediction_failure = 0
 
     while len(match_list) > 0:
         start = len(match_list)
@@ -249,13 +262,29 @@ def evaluate(results_base, recent_results, team, match_list):
             away = team
 
         prediction = predict(results_base, recent_results, home, away, start, 1)
-        if is_prediction_correct(results_base, home, away, prediction):
-            prediction_result += 1
+        prediction_eval = is_prediction_correct(results_base, home, away, prediction)
+        if prediction_eval == 1:
+            prediction_correct += 1
+        elif prediction_eval == -1:
+            prediction_incorrect += 1
+        else:  # if prediction_eval == 0
+            prediction_failure += 1
 
-    return prediction_result
+    return prediction_correct, prediction_incorrect, prediction_failure
+
+
+def percent(part, total):
+    return 100.0 * (float(part) / float(total))
 
 
 def main():
+
+    if len(sys.argv) == 3:
+        global TEST_TEAM
+        TEST_TEAM = sys.argv[1]
+        global TEST_FCL
+        TEST_FCL = sys.argv[2]
+
     results_base = {}
     get_results_history(results_base, '14', '15')
     get_results_history(results_base, '13', '14')
@@ -274,10 +303,13 @@ def main():
     season_end = '15'
     number_of_matches = 19
 
-    team = 'Arsenal'
+    team = TEST_TEAM
     match_list = get_n_last_matches(team, season_start, season_end, number_of_matches)
 
-    print "Score: {0}/{1}".format(evaluate(results_base, recent_results, team, match_list), number_of_matches)
+    test_result = evaluate(results_base, recent_results, team, match_list)
+
+    print "Correct: {0} , Incorrect : {1}, Failure : {2}, Correctness: {3:.2f}%".\
+        format(test_result[0], test_result[1], test_result[2], percent(test_result[0], number_of_matches))
     # print predict(results_base, recent_results, 'Arsenal', 'Chelsea')
 
 
