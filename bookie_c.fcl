@@ -49,19 +49,14 @@ FUNCTION_BLOCK bookie
 
     RULEBLOCK first
         AND:MIN;
-		ACT:MIN;
         (*ACCU:MAX;*)
-		RULE 0: IF (Home_Team_Form IS Good) AND (Away_Team_Form IS Bad) THEN (Result IS Home_Win);		
-		RULE 1: IF (Home_Team_Form IS Bad) AND (Away_Team_Form IS Good) AND (Home_Team_Win_Probability IS Low) THEN (Result IS Away_Win);
-		RULE 2: IF (Home_Team_Form IS Good) AND (Away_Team_Form IS Good) AND (Home_Side_Advantage IS High) AND (Away_Side_Advantage IS High) THEN (Result IS Draw);
-		RULE 3: IF (Home_Team_Form IS Bad) AND (Away_Team_Form IS Bad) AND (Home_Side_Advantage IS High) AND (Away_Side_Advantage IS High) THEN (Result IS Draw);
-		RULE 4: IF (Home_Team_Form IS Bad) AND (Away_Team_Form IS Bad) AND (Home_Side_Advantage IS High) AND (Away_Side_Advantage IS Low) THEN (Result IS Home_Win);
-		RULE 5: IF (Home_Side_Advantage IS Low) AND (Away_Side_Advantage IS High) AND (Home_Team_Win_Probability IS Low) THEN (Result IS Away_Win);
-		RULE 6: IF (Home_Side_Advantage IS Low) AND (Away_Side_Advantage IS Low) AND (Home_Team_Win_Probability IS Average) THEN (Result IS Draw);
-		RULE 7: IF (Home_Side_Advantage IS Low) AND (Away_Side_Advantage IS High) THEN (Result IS Away_Win);
-		RULE 8: IF (Home_Team_Form IS Good) AND (Home_Side_Advantage IS High) AND (Home_Team_Win_Probability IS Average) THEN (Result IS Home_Win);
-		RULE 9: IF (Away_Team_Form IS Good) AND (Home_Team_Win_Probability IS Low) THEN (Result IS Away_Win);
-
+		RULE 0: IF (Home_Team_Form IS Good) 				AND (Home_Side_Advantage IS High) 							                    THEN (Result IS Home_Win);
+		RULE 1: IF (Home_Team_Form IS Bad) 					AND (Home_Team_Win_Probability IS Low) AND (Away_Side_Advantage IS High)        THEN (Result IS Away_Win);
+		RULE 2: IF (Home_Team_Form IS Good) 				AND (Home_Team_Win_Probability IS High) 									    THEN (Result IS Home_Win);
+		RULE 3: IF (Home_Side_Advantage IS High) 			AND (Away_Side_Advantage IS Low) 											    THEN (Result IS Home_Win);
+		RULE 4: IF (Home_Team_Form IS Bad) 					AND (Away_Team_Form IS Good) 		   AND (Home_Team_Win_Probability IS High)  THEN (Result IS Draw);
+		RULE 5: IF (Away_Team_Form IS Good) 				AND (Home_Team_Form IS Bad) 		   AND (Home_Team_Win_Probability IS Low)   THEN (Result IS Away_Win);
+		RULE 6: IF (Home_Team_Win_Probability IS Average)   AND (Home_Side_Advantage IS Low)       AND (Home_Team_Form IS Bad) 			    THEN (Result IS Draw);
     END_RULEBLOCK
 
 END_FUNCTION_BLOCK

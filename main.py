@@ -277,7 +277,7 @@ def percent(part, total):
     return 100.0 * (float(part) / float(total))
 
 
-def main():
+def test():
 
     if len(sys.argv) == 3:
         global TEST_TEAM
@@ -311,6 +311,40 @@ def main():
     print "Correct: {0} , Incorrect : {1}, Failure : {2}, Correctness: {3:.2f}%".\
         format(test_result[0], test_result[1], test_result[2], percent(test_result[0], number_of_matches))
     # print predict(results_base, recent_results, 'Arsenal', 'Chelsea')
+
+
+def main():
+    results_base = {}
+    get_results_history(results_base, '14', '15')
+    get_results_history(results_base, '13', '14')
+    get_results_history(results_base, '12', '13')
+    get_results_history(results_base, '11', '12')
+    get_results_history(results_base, '10', '11')
+
+    recent_results = {}
+    get_latest_results(recent_results, '14', '15')
+    get_latest_results(recent_results, '13', '14')
+    get_latest_results(recent_results, '12', '13')
+    get_latest_results(recent_results, '11', '12')
+    get_latest_results(recent_results, '10', '11')
+
+    if len(sys.argv) == 2:
+        global TEST_FCL
+        TEST_FCL = sys.argv[1]
+
+    home = raw_input("Podaj druzyne gManospodarzy: ")
+    away = raw_input("Podaj druzyne gosci: ")
+
+    result = predict(results_base, recent_results, home, away)
+
+    if result == 'home':
+        print "Wygra druzyna gospodarzy"
+    elif result == 'away':
+        print "Wygra druzyna gosci"
+    elif result == 'draw':
+        print "Mecz zakonczy sie remisem"
+    else:
+        print "Nie udalo sie przewidziec wyniku"
 
 
 if __name__ == "__main__":
