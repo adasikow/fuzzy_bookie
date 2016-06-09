@@ -313,6 +313,43 @@ def test():
     # print predict(results_base, recent_results, 'Arsenal', 'Chelsea')
 
 
+# TEST POPRAWIONY - PRZEWIDYWANIE WYNIKOW SPOTKAN 2. POLOWY SEZONU 13/14 NA PODSTAWIE DANYCH Z SEZONOW 09-10 - 13-14
+def test_fixed_after_presentation():
+
+    if len(sys.argv) == 3:
+        global TEST_TEAM
+        TEST_TEAM = sys.argv[1]
+        global TEST_FCL
+        TEST_FCL = sys.argv[2]
+
+    results_base = {}
+    get_results_history(results_base, '13', '14')
+    get_results_history(results_base, '12', '13')
+    get_results_history(results_base, '11', '12')
+    get_results_history(results_base, '10', '11')
+    get_results_history(results_base, '09', '10')
+
+    recent_results = {}
+    get_latest_results(recent_results, '13', '14')
+    get_latest_results(recent_results, '12', '13')
+    get_latest_results(recent_results, '11', '12')
+    get_latest_results(recent_results, '10', '11')
+    get_latest_results(recent_results, '09', '10')
+
+    season_start = '13'
+    season_end = '14'
+    number_of_matches = 19
+
+    team = TEST_TEAM
+    match_list = get_n_last_matches(team, season_start, season_end, number_of_matches)
+
+    test_result = evaluate(results_base, recent_results, team, match_list)
+
+    print "Correct: {0} , Incorrect : {1}, Failure : {2}, Correctness: {3:.2f}%".\
+        format(test_result[0], test_result[1], test_result[2], percent(test_result[0], number_of_matches))
+    # print predict(results_base, recent_results, 'Arsenal', 'Chelsea')
+
+
 def main():
     results_base = {}
     get_results_history(results_base, '14', '15')
@@ -348,4 +385,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    #main()
+    test_fixed_after_presentation()
